@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
 /**
- * domain controller
+ * Default created Domain controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const { createCoreController } = require("@strapi/strapi").factories;
 
-module.exports = createCoreController('api::domain.domain');
+module.exports = createCoreController("api::domain.domain");
